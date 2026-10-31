@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-for-U | Tienda Coreana</title>
+    <link rel="icon" type="image/png" href="assets/producos comida/logo.png.jpeg">
+    <meta name="description" content="Descubre tus productos coreanos favoritos en K-for-U.">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/css/js/products.js" defer></script>
+    <script src="assets/css/js/cart.js" defer></script>
+    <script src="assets/css/js/main.js" defer></script>
+</head>
+
+<body>
+
+   <!-- ENCABEZADO / PORTADA -->
+<header id="inicio" class="portada-kforu">
+
+    <div class="portada-brillos">✧ ♡ ✧</div>
+
+    <div class="portada-contenido">
+        <span class="portada-etiqueta">
+            WELCOME TO K-FOR-U
+        </span>
+
+        <h1>K-for-U<span>♡</span></h1>
+
+        <h2>Un mundo de sabores<br>por descubrir</h2>
+
+        <p>
+            Tu rinconcito coreano favorito.
+            Descubre ramen, snacks, bebidas, dulces y cafés
+            que harán especiales tus pequeños antojos.
+        </p>
+
+        <a href="#categorias" class="boton-portada">
+            Explorar tienda <span>♡</span>
+        </a>
+
+        <div class="portada-detalle">
+            <span>✿</span>
+            <span>Pequeños antojos, grandes momentos</span>
+            <span>✿</span>
+        </div>
+    </div>
+
+    <div class="portada-decoracion">
+        <span class="decoracion-ramen">🍜</span>
+        <span class="decoracion-corazon">♡</span>
+        <span class="decoracion-flor">🌸</span>
+        <span class="decoracion-estrellas">✧</span>
+    </div>
+
+</header>
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#categorias">Categorías</a>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+
+    <a href="#seccion-favoritos"
+       aria-label="Favoritos"
+       style="display:inline-flex; align-items:center; justify-content:center; color:#51346d; font-size:35px; text-decoration:none; width:auto;">
+       ♥
+    </a>
+
+    <a href="#carrito"
+       class="enlace-carrito"
+       aria-label="Carrito"
+       style="display:inline-flex; align-items:center; justify-content:center; color:#51346d; font-size:35px; text-decoration:none; width:auto;">
+       🛒
+    </a>
+</nav>
+
+    <!-- BANNER PRINCIPAL -->
+    <main>
+
+        <section id="banner">
+            <h2>¡Annyeong! ♡</h2>
+            <p>Descubre el mundo coreano con K-for-U.</p>
+        </section>
+
+        <!-- CATEGORÍAS -->
+<section id="categorias">
+    <h2>Nuestras categorías</h2>
+    <div id="lista-categorias"></div>
+</section>
+
+<!-- BUSCADOR -->
+<div class="buscador-contenedor">
+    <span>⌕</span>
+    <input
+        type="text"
+        id="buscador-productos"
+        placeholder="Busca tu producto favorito..."
+    >
+    <button id="limpiar-busqueda" type="button">×</button>
+</div>
+
+<!-- PRODUCTOS -->
+<section id="productos">
+    <h2>Nuestros productos</h2>
+    <div id="lista-productos"></div>
+</section>
+
+<!-- MIS FAVORITOS -->
+<section id="seccion-favoritos">
+    <h2>♡ Mis favoritos</h2>
+    <p>Tus productos favoritos de K-for-U</p>
+    <div id="lista-favoritos"></div>
+</section>
+
+     <!-- NOSOTROS -->
+<section id="nosotros" class="nosotros-kforu">
+
+    <!-- PORTADA -->
+    <div class="nosotros-portada">
+        <div class="portada-decoracion">♡ ✧ ♡</div>
+        <span>♡ CONÓCENOS ♡</span>
+        <h2>Un poquito sobre<br>K-for-U</h2>
+        <p>Tu rinconcito coreano favorito ♡</p>
+        <div class="portada-flor">✿</div>
+    </div>
+
+    <!-- HISTORIA -->
+    <div class="historia-kforu">
+        <div class="historia-decoracion">
+            <span>♡</span>
+            <div class="historia-ilustracion">🌸 K-for-U 🌸</div>
+            <span>✧</span>
+        </div>
+
+        <div class="historia-texto">
+            <span class="etiqueta-nosotros">NUESTRA ESENCIA</span>
+            <h2>Nuestra pequeña historia ♡</h2>
+
+            <p>
+                K-for-U nace con la ilusión de acercarte un poquito
+                de Corea a través de sus sabores y productos favoritos.
+                Queremos que descubrir nuevos antojos sea una experiencia
+                especial, llena de sabor, alegría y mucho cariño.
+            </p>
+
+            <p>
+                Creamos este espacio pensando en quienes disfrutan
+                descubrir cosas nuevas y quieren tener un pedacito
+                de Corea más cerca.
+            </p>
+        </div>
+    </div>
+
+    <!-- VALORES -->
+    <div class="valores-kforu">
+        <div class="titulo-nosotros">
+            <span>✧</span>
+            <h2>Lo que nos representa ♡</h2>
+            <span>✧</span>
+        </div>
+
+        <div class="valores-grid">
+
+            <article class="valor-tarjeta">
+                <div class="valor-icono">♡</div>
+                <h3>Cariño</h3>
+                <p>Cada detalle importa.</p>
+            </article>
+
+            <article class="valor-tarjeta">
+                <div class="valor-icono">☆</div>
+                <h3>Calidad</h3>
+                <p>Productos seleccionados.</p>
+            </article>
+
+            <article class="valor-tarjeta">
+                <div class="valor-icono">♧</div>
+                <h3>Variedad</h3>
+                <p>Algo para cada antojo.</p>
+            </article>
+
+            <article class="valor-tarjeta">
+                <div class="valor-icono">☺</div>
+                <h3>Experiencia</h3>
+                <p>Queremos hacerte feliz.</p>
+            </article>
+
+        </div>
+    </div>
+
+    <!-- PRODUCTOS -->
+    <div class="descubre-kforu">
+        <div class="descubre-texto">
+            <span class="etiqueta-nosotros">UN MUNDO DE SABORES</span>
+            <h2>Mucho por descubrir ♡</h2>
+
+            <p>
+                Ramen, snacks, bebidas, dulces y cafés
+                para disfrutar de tus favoritos coreanos.
+            </p>
+
+            <a href="#categorias" class="boton-descubrir">
+                Explora nuestra tienda ♡
+            </a>
+        </div>
+
+        <div class="descubre-decoracion">
+            <span>🍜</span>
+            <span>🍬</span>
+            <span>🥤</span>
+            <span>♡</span>
+        </div>
+    </div>
+
+    <!-- MENSAJE FINAL -->
+    <div class="gracias-kforu">
+        <span class="gracias-decoracion">✿ ♡ ✧</span>
+        <h2>Gracias por elegir K-for-U ♡</h2>
+        <p>
+            Nos encanta formar parte de tus pequeños momentos y antojos.
+        </p>
+        <span class="firma-kforu">Con cariño, K-for-U ♡</span>
+    </div>
+</section>    
+    </main>
+
+   <!-- CONTACTO -->
+<footer id="contacto" class="contacto-kforu">
+
+    <div class="contacto-encabezado">
+        <span class="contacto-etiqueta">♡ ESTAMOS PARA TI ♡</span>
+        <h2>K-for-U</h2>
+        <h3>Conectemos ♡</h3>
+        <p>
+            Síguenos en nuestras redes sociales y descubre
+            todo lo que tenemos preparado para ti.
+        </p>
+        <div class="contacto-adorno">✧ ───── ♡ ───── ✧</div>
+    </div>
+
+    <div class="redes-kforu">
+
+        <!-- WHATSAPP -->
+        <a class="red-social whatsapp"
+           href="https://wa.me/50370483471"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="red-icono">☏</span>
+            <span class="red-nombre">WhatsApp</span>
+            <span class="red-descripcion">Escríbenos directamente</span>
+            <span class="red-boton">Abrir chat ↗</span>
+        </a>
+
+        <!-- INSTAGRAM -->
+        <a class="red-social instagram"
+           href="https://www.instagram.com/k_for_u_sv/"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="red-icono">◎</span>
+            <span class="red-nombre">Instagram</span>
+            <span class="red-descripcion">@k_for_u_sv</span>
+            <span class="red-boton">Ver perfil ↗</span>
+        </a>
+
+        <!-- TIKTOK -->
+        <a class="red-social tiktok"
+           href="https://www.tiktok.com/@k_for_u_oficial"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="red-icono">♪</span>
+            <span class="red-nombre">TikTok</span>
+            <span class="red-descripcion">@k_for_u_oficial</span>
+            <span class="red-boton">Ver perfil ↗</span>
+        </a>
+
+        <!-- FACEBOOK -->
+        <a class="red-social facebook"
+           href="https://www.facebook.com/profile.php?id=61595525068124"
+           target="_blank"
+           rel="noopener noreferrer">
+            <span class="red-icono">f</span>
+            <span class="red-nombre">Facebook</span>
+            <span class="red-descripcion">Encuéntranos aquí</span>
+            <span class="red-boton">Visitar página ↗</span>
+        </a>
+
+    </div>
+
+    <div class="contacto-final">
+        <span>♡ Gracias por ser parte de K-for-U ♡</span>
+        <p>Un poquito de Corea, un mundo de sabores.</p>
+        <small>© 2026 K-for-U. Todos los derechos reservados.</small>
+    </div>
+
+</footer>
+  
+  <div id="modal-producto" class="modal-producto">
+    <div class="modal-contenido">
+        <button id="cerrar-modal" class="cerrar-modal">×</button>
+
+        <img id="modal-imagen" src="" alt="">
+
+        <div class="modal-informacion">
+            <h2 id="modal-nombre"></h2>
+            <p id="modal-marca"></p>
+            <p id="modal-descripcion"></p>
+            <h3 id="modal-precio"></h3>
+
+            <button id="modal-agregar">Agregar al carrito ♡</button>
+        </div>
+    </div>
+</div>      
+</body>
+</html>
